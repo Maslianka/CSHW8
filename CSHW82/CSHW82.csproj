@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CSHW7T\CSHW7T.csproj">
+      <Project>{0C56D9A2-663D-4A26-9B7D-2DE1493272F7}</Project>
+      <Name>CSHW7T</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
